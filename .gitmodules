@@ -1,6 +1,0 @@
-[submodule "apriltag_ros"]
-	path = apriltag_ros
-	url = git@github.com:AprilRobotics/apriltag_ros.git
-[submodule "darknet_ros"]
-	path = darknet_ros
-	url = https://github.com/leggedrobotics/darknet_ros.git

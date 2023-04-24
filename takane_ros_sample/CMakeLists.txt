@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   message_generation
   message_runtime
+  actionlib_msgs
   std_msgs
 )
 
@@ -64,17 +65,18 @@ add_service_files(
 )
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
-#   Action2.action
-# )
+## actionフォルダのアクションの生成
+add_action_files(
+  FILES
+  MyAction.action
+)
 
 ## Generate added messages and services with any dependencies listed here
 ## メッセージ、サービス、アクションを生成するための依存関係
 generate_messages(
   DEPENDENCIES
   std_msgs
+  actionlib_msgs
 )
 
 ################################################

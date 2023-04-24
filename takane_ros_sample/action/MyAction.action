@@ -1,0 +1,9 @@
+# Define the goal
+int32 a
+int32 b
+---
+# Define the result
+int32 sum
+---
+# Define a feedback message
+int32 rate

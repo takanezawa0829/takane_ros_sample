@@ -160,6 +160,3 @@ cython_debug/
 #.idea/
 
 .vscode
-
-# unity projectの開発中はprojectは追加しておく
-takane_ros_sample_unity_project/

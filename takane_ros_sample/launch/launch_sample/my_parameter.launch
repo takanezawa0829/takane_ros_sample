@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="takane_ros_sample" name="my_parameter_node" type="my_parameter_node.py" output="screen">
+        <param name="my_parameter" value="10" type="int" />
+    </node>
+</launch>

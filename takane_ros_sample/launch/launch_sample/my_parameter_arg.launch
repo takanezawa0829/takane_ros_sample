@@ -1,0 +1,6 @@
+<launch>
+    <arg name="my_arg" default="10" />
+    <node pkg="takane_ros_sample" name="my_parameter_node" type="my_parameter_node.py" output="screen">
+        <param name="my_parameter" value="$(arg my_arg)" type="int" />
+    </node>
+</launch>

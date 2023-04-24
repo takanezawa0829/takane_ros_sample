@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # license removed for brevity
 import rospy
-from robot_contest.msg import OutputCsv
+from takane_ros_sample.msg import OutputCsv
 # ディレクトリを操作するためのモジュールをimport
 import os
 # csvファイルを操作するためのモジュールをimpot

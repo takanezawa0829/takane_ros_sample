@@ -1,5 +1,5 @@
 # takane_ros_sample
-## 準備
+## パッケージを使うための準備
 ### 1. 依存関係をインストールする。
     ```
     cd ~/catkin_ws/src/takane_ros_sample
@@ -17,3 +17,7 @@
     <!-- pythonコマンドで利用したいversionを選択する。 -->
     update-alternatives --config python 
     ```
+
+## 開発環境
+* Ubuntu20.04LTS Desktop
+* ROS Noetic

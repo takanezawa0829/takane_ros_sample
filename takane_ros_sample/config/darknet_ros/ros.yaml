@@ -1,7 +1,7 @@
 subscribers:
 
   camera_reading:
-    topic: /my_camera/image_rect_color
+    topic: /sample_camera/image_rect_color
     queue_size: 1
 
 actions:
